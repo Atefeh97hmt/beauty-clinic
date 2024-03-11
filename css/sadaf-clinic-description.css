@@ -1,0 +1,406 @@
+/*font*/
+@font-face{
+    font-family: yekan;
+    src: url(../B_Yekan/Yekan.ttf);
+}
+
+body{font-family: yekan;}
+.body a{color: black;}
+
+
+/****************navbar***************/
+
+.noborder{border: 0px solid!important}
+
+.nav-link-border-bottom a{
+    border: 5px solid #f8f9fa;}
+
+.nav-link-border-bottom a:hover {
+    border-bottom:5px darkturquoise solid;
+}
+
+.under-page-navbar{
+  direction: rtl;
+  font-size: 12px;
+  font-family: yekan;
+
+}
+.under-page-nav-mr{margin: 5px}
+
+.nav a{
+  color: black;
+  font-family: yekan;
+  font-weight: bold
+}
+
+.fa-search{
+  color: lightseagreen;
+  font-size: 18px;
+}
+
+.fa-home{
+  color: lightseagreen;
+  font-size: 20px;
+}
+
+.fa-angle-double-left{color: lightseagreen;
+  font-size: 20px;
+}
+
+.navbar{ font-family: yekan;
+  font-size: 15px
+}
+
+.navbar-brand{font-size: 15px!important;}
+.navbar-nav{font-size: 14px;}
+.dropdown-menu-text-align{
+  text-align: center!important;
+  direction: rtl!important
+}
+.nav-direction{direction: rtl}
+
+
+@media screen and (max-width:1000px){
+.nav-text-align-right{
+text-align: right
+} }
+
+
+
+/**********************discription part*****************/
+
+
+
+.clinic-pic-border{border: 
+  2px solid darkturquoise;
+border-radius: 8%;
+position: relative;
+height: 95%;
+width: 87%;
+right: -16%;
+top:-12%
+}
+
+
+.clinic-photo{
+position: relative;
+top: -95%;
+right:-10%;
+display: block;
+border-radius: 8%;
+
+width: 85%;
+  height: 350px!important
+}
+
+
+.discription-header-text{
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+.discription-clinic-image{
+  border-radius: 20px;
+  position: absolute;
+  right: 60px;
+  top: 65px;
+}
+
+.discription-li-text{
+  font-size: 18px;
+  list-style-type :fill;
+  color: lightseagreen ;
+  direction: rtl;
+ 
+}
+
+.discription-ul-text{
+  direction: rtl;
+}
+
+
+.discription-text2{
+  width:100%;
+  font-family: yekan;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.discription-text-p2{
+  font-size: 18px;
+  direction: rtl;
+  text-align: justify;
+}
+
+.black{
+  color: black;
+ 
+}
+
+
+.title-sadaf{color: darkcyan;
+  text-align: center;
+  font-family: yekan;
+  margin-bottom: 120px;
+  font-weight: bold;
+}
+
+.more-collapse{direction: rtl}
+
+.more-collapse-style{
+  color: black;
+  direction: rtl}
+
+.clinic-services-title{
+  font-family: yekan;
+   font-weight: bold;
+   color:black;
+   text-align: right;
+   font-size:15px
+  }
+
+
+
+
+/******************info part********************/
+
+
+.fa-phone {
+  color: seagreen;
+  font-size: 30px;
+  float: right;
+  margin-left: 15px;
+}
+
+.fa-life-ring 
+{color: seagreen;
+  font-size: 30px;
+  float: right;
+  margin-left: 15px;
+}
+
+.fa-envelope{
+  color: seagreen;
+  font-size: 30px;
+  float: right;
+  margin-left: 15px;
+}
+
+.fa-map-marker
+{color: seagreen;
+  font-size: 30px;
+  float: right;
+  margin-left: 15px;
+}
+
+.fa-star{color: green;}
+.notgreen{color: white;}
+
+.info-text1{
+  direction: ltr;
+  text-align: right;
+  font-family: yekan;
+  font-size: 16px
+}
+
+ /*****************************alert***********************/
+
+
+.line-in-gray-part::before{
+  content:" ";
+  border-left: 1px solid black;
+  margin: 1%
+}
+
+.gray-part-style{
+  text-align:center;
+  direction: rtl;
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px!important;
+  font-family: yekan
+}
+
+/************************footer************************/
+
+
+.footer a
+{color: black;
+   font-family: yekan;
+   font-weight: bold;
+  }
+
+.footer-list-style-title
+{list-style-type: none;
+  text-align:center;
+  padding: 20px;
+  margin-right: 10px;
+  color: forestgreen ;
+  clear: both;
+}
+
+.footer
+{background-color:whitesmoke;
+  direction: rtl;
+  font-size: 15px;
+  width: 100%;
+  margin-top: 30px;
+  clear: both;
+}
+
+.footer-list-style-type-square{
+  list-style-type: square;
+  color:teal;
+  direction: rtl;
+  text-align: right;
+  clear: both;
+}
+
+.footer-ul-style{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    bottom: 30px;
+    margin-left: 20px;
+     clear: both;
+    }
+
+.doubleminus::before{content: "";
+    color: green;
+    width: 10%;
+    text-align: right;
+    position: absolute;
+    border-bottom: solid;
+    margin: 10px;
+    margin-right: -40px;}
+
+.doubleminus::after{content: "";
+    
+    color:green;
+    width: 10%;
+    text-align: right;
+    position: absolute;
+    border-bottom: solid;
+    margin: 10px;
+    margin-right: 10px;}
+
+
+.part{position: relative;margin-left: 10%;}
+
+
+/**********************form part***********************/
+
+.comment-part-background{
+background-image:url(../image/1.png);
+background-repeat:repeat;
+height: 400px;
+margin-bottom: 6%;
+margin-top: 6%
+}
+
+.contact100-form-title{
+  color: darkgreen;
+  text-align: right;
+  font-size: 20px
+}
+
+.contact100-form{
+  text-align: center;
+  padding: 30px;}
+
+.comment-sending-btn
+{background-color: darkturquoise;
+  margin-top: 5px;
+  border: darkturquoise 2px solid;
+  border-radius: 8px;
+  width: 50%;
+  height: 50px;
+  color: white;
+
+}
+
+.not-bot-btn
+{background-color: whitesmoke;
+  margin-top: 5px;
+  border: darkturquoise 2px solid;
+  border-radius: 8px;
+  width: 50%;
+  height: 50px;
+  color: black;
+}
+
+
+.input100{width: 50% !important;
+  margin-top:8px;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 85%;
+    padding: 12px;
+    border: 2px solid darkturquoise;
+    border-radius: 8px;
+    box-sizing: border-box;
+    resize: vertical;
+    direction: rtl;
+  }
+  
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: darkturquoise;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius:8px;
+    cursor: pointer;
+    float: right;
+    width: 64%;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+.map-part-direction{direction: rtl;}
+.map-photo{border-radius: 12%}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    border-radius: 20px
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+
